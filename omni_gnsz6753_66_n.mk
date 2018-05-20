@@ -14,10 +14,9 @@
 # limitations under the License.
 #
 
-ifneq ($(filter gnsz6753_66_n,$(TARGET_DEVICE)),)
-
-LOCAL_PATH := device/condor/gnsz6753_66_n/
-
-include $(call all-makefiles-under,$(LOCAL_PATH))
-
-endif
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+PRODUCT_DEVICE := gnsz6753_66_n
+PRODUCT_NAME := omni_gnsz6753_66_n
+PRODUCT_BRAND := condor
+PRODUCT_MODEL := PGN611
+PRODUCT_MANUFACTURER := condor

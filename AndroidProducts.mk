@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/condor/gionee6753_65u_m0/
+LOCAL_PATH := device/condor/gnsz6753_66_n/
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_gionee6753_65u_m0.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_gnsz6753_66_n.mk
