@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-ifneq ($(filter gionee6753_65u_m0,$(TARGET_DEVICE)),)
+ifneq ($(filter gnsz6753_66_n,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/condor/gionee6753_65u_m0/
+LOCAL_PATH := device/condor/gnsz6753_66_n/
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
