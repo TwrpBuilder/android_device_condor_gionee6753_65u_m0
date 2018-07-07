@@ -20,7 +20,7 @@ script:
     EOF
 after_success:
   - export version=$(cat bootable/recovery/variables.h | grep "define TW_MAIN_VERSION_STR" | cut -d '"' -f2)
-  - cp $HOME/twrp/out/target/product/gionee6753_65u_m0/Condor_Allure_A8.img $HOME/twrp/TWRP-$version-gionee6753_65u_m0-$(date +"%Y%m%d").img
+  - cp $HOME/twrp/out/target/product/gionee6753_65u_m0/recovery.img $HOME/twrp/TWRP-$version-gionee6753_65u_m0-$(date +"%Y%m%d").img
 
 deploy:
   skip_cleanup: true
